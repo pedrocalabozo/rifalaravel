@@ -3,7 +3,7 @@
     <!-- Raffle Card 1 -->
 
 @foreach ($raffles as $rifa)
-<div class="raffle-card bg-white rounded-xl overflow-hidden">
+<div wire:click="open_detalle_rifa({{$rifa->id}})" class="raffle-card bg-white rounded-xl overflow-hidden">
     <div class="relative h-48 overflow-hidden">
         <img src="{{ $rifa->foto_url ?? '/img/default-image.jpg' }}"
             alt="Imagen de la rifa" class="w-full h-full object-cover">
@@ -19,7 +19,7 @@
                 <span class="text-gray-500 text-sm">Precio por boleto:</span>
                 <span class="text-indigo-600 font-bold ml-2">${{$rifa->precio_boleto}}</span>
             </div>
-            <a wire:click="open_detalle_rifa({{$rifa->id}})"
+            <a 
                class="participar-link text-indigo-600 font-medium hover:text-indigo-800 transition"
                >
                 Participar<i class="fas fa-arrow-right ml-1"></i>

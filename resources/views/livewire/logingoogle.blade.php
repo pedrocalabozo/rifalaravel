@@ -23,11 +23,12 @@
                 @else
 
                 <div class="flex items-center space-x-4">
-                    <button
-                    wire:click="login"
+                    <a href="{{ route('login') }}"
+                   
                         class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-medium hover:bg-indigo-50 transition">
-                        <i class="fas fa-sign-in-alt mr-2"></i>Iniciar Sesión
-                    </button>
+                        <i class="fab fa-google mr-3"></i> Iniciar con Google
+                   
+                </a>
                     <button class="md:hidden text-white" id="mobileMenuBtn">
                         <i class="fas fa-bars text-2xl"></i>
                     </button>

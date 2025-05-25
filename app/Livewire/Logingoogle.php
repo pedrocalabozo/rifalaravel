@@ -8,10 +8,10 @@ class Logingoogle extends Component
 {
     public $modalvisible = false;
 
-    public function login()
-    {
-        $this->modalvisible = true;
-    }
+    // public function login()
+    // {
+    //     $this->modalvisible = true;
+    // }
     public function closelogin()
     {
         $this->modalvisible = false;

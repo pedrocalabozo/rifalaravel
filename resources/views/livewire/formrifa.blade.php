@@ -54,8 +54,7 @@
                     </div>
                     <div class="ml-3">
                         <p class="text-sm text-yellow-700">
-                            Debes <a href="#" class="font-medium text-yellow-700 underline hover:text-yellow-600"
-                                onclick="showLoginForm()">iniciar sesión</a> y completar tu perfil para participar
+                            Debes <a href="{{ route('login') }}" class="font-medium text-yellow-700 underline hover:text-yellow-600">iniciar sesión</a> y completar tu perfil para participar
                             en esta rifa.
                         </p>
                     </div>
