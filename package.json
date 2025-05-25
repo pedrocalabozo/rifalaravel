@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "npm run watch",
+        "watch": "mix watch",
+        "build": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.8.2",
+        "concurrently": "^9.0.1",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^1.2.0",
+        "sass": "^1.32.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^6.2.4"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "lodash": "^4.17.21",
+        "vue": "^2.6.12"
+    }
+}

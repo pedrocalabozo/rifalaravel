@@ -1,0 +1,11 @@
+<?php
+
+return [
+    'welcome' => 'Welcome to Rifa Facil!',
+    'raffle_active' => 'Active Raffles',
+    'participate' => 'Participate in Raffle',
+    'ticket_purchase_success' => 'Your ticket purchase was successful!',
+    'profile_updated' => 'Your profile has been updated successfully.',
+    'payment_pending' => 'Your payment is pending verification.',
+    'winner_announced' => 'The winner has been announced!',
+];
